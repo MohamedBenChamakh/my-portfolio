@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270" height="70" viewBox="0 0 270 70">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Tracé_6" data-name="Tracé 6" d="M61.1,15.8c-9,3-20.5,10.9-31.1,24.4l-6.3-6.9a2.51,2.51,0,0,0-3.5-.2l-.2.2-4.6,5.2a2.478,2.478,0,0,0,.1,3.4L29.7,55.5a2.537,2.537,0,0,0,3.6-.1,2.181,2.181,0,0,0,.4-.5C41.2,41.1,49.4,31,63.1,19.3a1.968,1.968,0,0,0,.2-2.9A1.894,1.894,0,0,0,61.1,15.8Z" transform="translate(-14.773 -15.665)"/>
+    </clipPath>
+    <clipPath id="clip-Ouickly_logo">
+      <rect width="270" height="70"/>
+    </clipPath>
+  </defs>
+  <g id="Ouickly_logo" data-name="Ouickly logo" clip-path="url(#clip-Ouickly_logo)">
+    <rect width="270" height="70" fill="#fff"/>
+    <g id="Ouickly-logo" transform="translate(-825 -261.304)">
+      <g id="Groupe_42" data-name="Groupe 42" transform="translate(826 262.304)">
+        <path id="Tracé_5" data-name="Tracé 5" d="M29.1,68.3a27.649,27.649,0,0,1-10.2-2,27.779,27.779,0,0,1-16-19.6A27.8,27.8,0,0,1,9,22.1a28.034,28.034,0,0,1,34.3-5.7L41,20.5a23.292,23.292,0,0,0-28.5,4.7,22.929,22.929,0,0,0-5,20.4A23.02,23.02,0,0,0,20.8,61.9c7.8,3.3,16.5,1.8,23.4-3.9a22.758,22.758,0,0,0,8.1-22.4l4.6-1a27.76,27.76,0,0,1-9.7,27A28.378,28.378,0,0,1,29.1,68.3Z" transform="translate(-2.192 -12.904)" fill="#88cdd4"/>
+      </g>
+      <g id="Groupe_45" data-name="Groupe 45" transform="translate(838.581 265.065)">
+        <g id="Groupe_44" data-name="Groupe 44">
+          <g id="Groupe_43" data-name="Groupe 43" clip-path="url(#clip-path)">
+            <image id="Rectangle_18" data-name="Rectangle 18" width="50" height="42" transform="translate(-0.773 -0.865)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAqCAIAAAB+2J8QAAAACXBIWXMAAAsSAAALEgHS3X78AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA/JJREFUeNqkWFuC2yAMZHz6Xm7/9jgNqm2E3gQndbqukxAQkmZGCH9+fum62vk67+1+6L31fn163vv1/nzR60Wv3q/7i/7yQ391qh7ub+fDHMw/v+e87/xvrNnUhtaOtrqQ7unLhxca8GycXMdysWH+bf+5J/7M7Il9PJxqxsS5oKahMK82+Hg3AtU30P/Bf82teNnd1G7eWBshi15cuPF44lo1D/NZDLrnvj9Xe8HfI7jKGoGFp1CbhfQuTTDmR3hAMQ94J7eFxnS8yU/svJV/RxwgkpzrM7GIFkFk3DG0zTw0rl0QxxDKSFRPOJfM2A1P2ETUdxzLFseUF7HF3izEQZKwdkuYqSqLjVfeNtQgQHYR18KWIPbsIgRxQkpC87oIN+UkzJTTshSy75BYZiYUnuIEN444IZjQRnrdahFcg/9GoiMIhpQhiKFaCYMzbJyDz5DYHiNxbGvi6wof9RuJxPhCdil0H8NEizsBcoHEQBCRdxDdhWa50dASEIJIJoiDRO7lEUMBj0KiAokUCMKYK1tyNC0EkdQJEiZYyi1jUYf1yI53oBs1R9AiCEFcDxwKKsoGcWdnB74VaHwq1c3lFmfVJPeZ12k/MfkQkfi1VGPt7kkQWTGbVQVgLZh4gETskGgJQioCFbZUbgnL25iGlTIS8d5bOp1VIw4NDXLvpEIUXMYOmeQ+09TKGpU20bMgQupru5ShyiIHdQOJ3N/JtDHzWPlT0jbmjaksiaog+jJQSORrgsBuQ8QUT7Z4KgsW9ayQqdtgmfP4RKptxstcE2FT8iJBXOrEple7NcL6HRJR8MSggEFaWo+RJwhPp1gc9fCpVCO6agCIqxQjz3XVKeQ+BodCctyeFc1ZDxPh2fiheX6H0VYh95aEvNXsoCodkVhZNQ8TzWeVgVZxsMIUcpXOZ6dv7DXRsAOCsJwvCY1ijMIYLQCLWhQLntgf9hOfSMukX4m1CCK05ulSNCeCwK5A3bVGwgEfptFRBlHLTkO+2IDpA4LIR8NJUobcrRKQKw8N15cdG87a8TMszVrUZb4wFMY25wtXXst9kruospmHS0Ksi2AxC839GK0WB0vuQNHQUV3CMnlQ63SliUSpHje1lK3lu2SxhMEE0fdCXAdl39XaFs2MfI9EKZHdcTkEsQ1yJ2WQ1jKX45O22xqv8EcdBB/A5M2S3AMSvyGIlY+FKutGYSJ3LNtr8Bh/iETbRZoRvKLDDS2DL1/Gxz6gAEVWoMkOhiCyAYcmLMVCLbQnyZN7LhzGADmoBYKgOa9IbJTpUqpDIWFd4ikbKUfgTFfqwKp/Hqk1F82o+spERVdXk/3tEc93TRcDdyXFPwEGAJrPga/72i3LAAAAAElFTkSuQmCC"/>
+          </g>
+        </g>
+      </g>
+      <g id="Groupe_46" data-name="Groupe 46" transform="translate(891.908 262.8)">
+        <path id="Tracé_7" data-name="Tracé 7" d="M73.7,27.9H84L79.3,50.5a33.485,33.485,0,0,0-.9,5.1,3.784,3.784,0,0,0,1.2,2.8,4.3,4.3,0,0,0,3.1,1.2,8.574,8.574,0,0,0,2.7-.5,9.583,9.583,0,0,0,2.7-1.6,14.21,14.21,0,0,0,2.5-2.4,19.043,19.043,0,0,0,2.1-3.6,36.4,36.4,0,0,0,1.5-5.4L98,28h10.3l-8,38.1H90.7l1.1-5.2C87.6,64.9,83,67,78.1,67a10.052,10.052,0,0,1-7.4-2.7A9.91,9.91,0,0,1,68.1,57a51.515,51.515,0,0,1,1.2-7.9Z" transform="translate(-68.1 -13.4)" fill="#88cdd4"/>
+        <path id="Tracé_8" data-name="Tracé 8" d="M118.7,27.9H129L121,66H110.7Zm3-14.5H132l-1.9,9.3H119.8Z" transform="translate(-68.1 -13.4)" fill="#88cdd4"/>
+      </g>
+      <g id="Groupe_47" data-name="Groupe 47" transform="translate(953.107 262.8)">
+        <path id="Tracé_9" data-name="Tracé 9" d="M153.6,51.6l10,1.6a20.919,20.919,0,0,1-7.3,10.1,18.868,18.868,0,0,1-11.2,3.5c-4.9,0-8.7-1.4-11.5-4.3s-4.3-6.9-4.3-11.9a27.747,27.747,0,0,1,2.6-11.7,19.349,19.349,0,0,1,7.8-8.7A21.807,21.807,0,0,1,151.1,27c4.5,0,8.1,1.2,10.8,3.5a12.979,12.979,0,0,1,4.5,9.3l-9.8,1a7.084,7.084,0,0,0-2-4.7,6,6,0,0,0-4.2-1.5,8.473,8.473,0,0,0-5.6,2.2,14.958,14.958,0,0,0-4,6.7,28.855,28.855,0,0,0-1.4,8.3A7.534,7.534,0,0,0,141,57a5.386,5.386,0,0,0,4.1,1.8,7.979,7.979,0,0,0,4.8-1.8A10.291,10.291,0,0,0,153.6,51.6Z" transform="translate(-129.3 -13.4)" fill="#1d70a4"/>
+        <path id="Tracé_10" data-name="Tracé 10" d="M168.5,66l11-52.6h10.3L184,40.8l13.4-12.9h13.4L195.5,41.7l8.1,24.2H193.3l-5.2-17.6-7,6.2L178.8,66Z" transform="translate(-129.3 -13.4)" fill="#1d70a4"/>
+      </g>
+      <g id="Groupe_48" data-name="Groupe 48" transform="translate(1031.107 262.8)">
+        <path id="Tracé_11" data-name="Tracé 11" d="M207.3,66l11-52.6h10.3L217.6,66Z" transform="translate(-207.3 -13.4)" fill="#1d70a4"/>
+      </g>
+      <g id="Groupe_49" data-name="Groupe 49" transform="translate(1049.107 277.3)">
+        <path id="Tracé_12" data-name="Tracé 12" d="M230.9,27.9h10.3l2.6,19c.6,4.9,1,8.3,1.1,10.3a80.718,80.718,0,0,1,5.5-12.3L259.5,28h10.9L246.9,69.8a54.087,54.087,0,0,1-4.6,7.3,12.628,12.628,0,0,1-4,3.3,12.177,12.177,0,0,1-5.6,1.2,30.844,30.844,0,0,1-7.4-1.1l.9-7.7a11.187,11.187,0,0,0,3.6.5c3.2,0,5.7-2.4,7.8-7.2Z" transform="translate(-225.3 -27.9)" fill="#1d70a4"/>
+      </g>
+    </g>
+  </g>
+</svg>
