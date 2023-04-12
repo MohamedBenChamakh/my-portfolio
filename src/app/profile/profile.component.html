@@ -27,9 +27,14 @@
       <h1>Hi , i'm <span class="text-primary">Mohamed</span></h1>
       <h2>Software Engineer</h2>
 
-      <button class="btn btn-outline-primary w-75 mb-2">
+      <button class="btn btn-outline-primary w-75 mb-2" (click)="checkCv()">
         Download my resume
       </button>
+      <p *ngIf="!isAvailable">
+        <small class="text-muted " 
+          >Temporarily not available</small
+        >
+      </p>
       <button class="btn btn-primary shadow-sm w-50">
         <a href="#contactMe" class="text-light text-decoration-none"
           >Contact me</a
@@ -190,7 +195,7 @@
       <h2>Road map</h2>
       <div class="row">
         <div class="col-lg-8 mb-3 bg-white rounded shadow-sm mx-auto">
-          <div class="row">
+          <div class="row p-2">
             <div
               class="col-lg-4 d-flex justify-content-center align-items-center"
             >
@@ -203,11 +208,14 @@
               <p class="mb-0">
                 <strong>Value Digital Services</strong>
               </p>
+              <p class="text-muted m-0">
+                <small>Software Engineer</small>
+              </p>
               <p class="text-muted m-0 mb-3">
-                <small>Since September 2022</small>
+                <small>Since September 2022 , Tunisia</small>
               </p>
               <p>
-                Development of a mobile SIRH (Human Resources Information
+                Development of a mobile HRIS (Human Resources Information
                 System) application called WeBiat for the Arab International
                 Bank of Tunisia (BIAT).
               </p>
@@ -267,7 +275,7 @@
       </div>
       <div class="row">
         <div class="col-lg-8 mb-3 bg-white rounded shadow-sm mx-auto">
-          <div class="row">
+          <div class="row p-2">
             <div
               class="col-lg-4 d-flex justify-content-center align-items-center my-5"
             >
@@ -280,11 +288,14 @@
               <p class="mb-0">
                 <strong>Aymax</strong>
               </p>
+              <p class="text-muted m-0">
+                <small>Software Engineer (End of study internship)</small>
+              </p>
               <p class="text-muted m-0 mb-3">
-                <small>February 2022 - August 2022</small>
+                <small>February 2022 - August 2022 , Tunisia</small>
               </p>
               <p>
-                Design and development of a training module in the SIRH (Human
+                Design and development of a training module in the HRIS (Human
                 Resources Information System) QUICKLY, which has been developed
                 by the Aymax team since 2019.
               </p>
@@ -341,18 +352,79 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-lg-8 mb-3 bg-white rounded shadow-sm mx-auto">
+          <div class="row p-2">
+            <div
+              class="col-lg-4 d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="../../assets/1552617636603.jpg"
+                class="w-75 mx-4 img-fluid"
+              />
+            </div>
+            <div class="col mt-3">
+              <p class="mb-0">
+                <strong>Tsunami IT</strong>
+              </p>
+              <p class="text-muted m-0">
+                <small>Software Engineer (Full Remote Internship)</small>
+              </p>
+              <p class="text-muted m-0 mb-3">
+                <small>July 2021 - August 2021 , Canada</small>
+              </p>
+              <p>
+                Designing a cloud architecture on Amazon Web Services and
+                deploying a web application called C2 based on microservices.
+              </p>
+              <div
+                class="d-flex flex-wrap justify-content-evenly align-items-center"
+              >
+                <img
+                  src="../../assets/985px-Laravel.svg.png"
+                  class="icon"
+                  alt="laravel"
+                />
+                <img
+                  src="../../assets/2560px-Amazon_Web_Services_Logo.svg.png"
+                  class="icon"
+                  alt="aws"
+                />
+                <img
+                  src="../../assets/Git-Icon-1788C.png"
+                  class="icon"
+                  alt="Git"
+                />
+                <img
+                  src="../../assets/MySQL-Logo.png"
+                  class="icon"
+                  alt="MySQL"
+                />
+                <img
+                  src="../../assets/Jira-Emblem.png"
+                  class="icon"
+                  alt="Jira"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="container mt-3 section-2 border-bottom border-2 mb-2 pb-2" id="skills">
-  <div class="row ">
-    <div class="col ">
+<div
+  class="container mt-3 section-2 border-bottom border-2 mb-2 pb-2"
+  id="skills"
+>
+  <div class="row">
+    <div class="col">
       <h2>Skills</h2>
       <div class="row mt-3 d-flex justify-content-center">
-        <div class="col-lg-3 p-3  shadow-sm border rounded bg-white m-1">
+        <div class="col-lg-3 p-3 shadow-sm rounded bg-white m-1">
           <h3>Frameworks</h3>
-          <div class="row d-flex  justify-content-start align-items-center" >
+          <div class="row d-flex justify-content-start align-items-center">
             <div class="col-3">
               <div class="d-flex justify-content-center">
                 <img
@@ -395,13 +467,12 @@
                 </p>
               </div>
             </div>
-
           </div>
         </div>
 
-        <div class="col-lg-3 p-3  shadow-sm border rounded bg-white m-1">
+        <div class="col-lg-3 p-3 shadow-sm rounded bg-white m-1">
           <h3>Programming languages</h3>
-          <div class="row d-flex  justify-content-start align-items-center">
+          <div class="row d-flex justify-content-start align-items-center">
             <div class="col-3">
               <div class="d-flex justify-content-center">
                 <img
@@ -443,9 +514,9 @@
           </div>
         </div>
 
-        <div class="col-lg-3 p-3  shadow-sm border rounded bg-white m-1" >
+        <div class="col-lg-3 p-3 shadow-sm rounded bg-white m-1">
           <h3>Web Dev</h3>
-          <div class="row d-flex  justify-content-start align-items-center">
+          <div class="row d-flex justify-content-start align-items-center">
             <div class="col-3">
               <div class="d-flex justify-content-center">
                 <img
@@ -455,7 +526,7 @@
                 />
               </div>
               <div class="card-body">
-                <p class="card-title text-center"><small>Html 5</small></p>
+                <p class="card-title text-center"><small>Html5</small></p>
               </div>
             </div>
 
@@ -468,11 +539,11 @@
                 />
               </div>
               <div class="card-body">
-                <p class="card-title text-center"><small>CSS 3</small></p>
+                <p class="card-title text-center"><small>CSS3</small></p>
               </div>
             </div>
 
-            <div class="col-3 ">
+            <div class="col-3">
               <div class="d-flex justify-content-center">
                 <img
                   src="../../assets/Unofficial_JavaScript_logo_2.svg.png"
@@ -497,13 +568,12 @@
                 <p class="card-title text-center"><small>TypeScript</small></p>
               </div>
             </div>
-
           </div>
         </div>
 
-        <div class="col-lg-3 p-3  shadow-sm border rounded bg-white m-1">
+        <div class="col-lg-3 p-3 shadow-sm rounded bg-white m-1">
           <h3>Databases</h3>
-          <div class="row d-flex  justify-content-start align-items-center">
+          <div class="row d-flex justify-content-start align-items-center">
             <div class="col-3">
               <div class="d-flex justify-content-center">
                 <img
@@ -532,10 +602,10 @@
           </div>
         </div>
 
-        <div class="col-lg-3 p-3  shadow-sm border rounded bg-white m-1">
+        <div class="col-lg-3 p-3 shadow-sm rounded bg-white m-1">
           <h3>DevOps tools</h3>
-          <div class="row d-flex  justify-content-start align-items-center">
-            <div class="col-3 ">
+          <div class="row d-flex justify-content-start align-items-center">
+            <div class="col-3">
               <div class="d-flex justify-content-center">
                 <img
                   src="../../assets/Kubernetes_logo_without_workmark.svg"
@@ -544,11 +614,11 @@
                 />
               </div>
               <div class="card-body">
-                <p class="card-title text-center"><small>K8c</small></p>
+                <p class="card-title text-center"><small>K8S</small></p>
               </div>
             </div>
 
-            <div class="col-3 ">
+            <div class="col-3">
               <div class="d-flex justify-content-center">
                 <img
                   src="../../assets/Ansible_logo.svg"
@@ -589,10 +659,10 @@
           </div>
         </div>
 
-        <div class="col-lg-3 p-3  shadow-sm border rounded bg-white m-1">
+        <div class="col-lg-3 p-3 shadow-sm rounded bg-white m-1">
           <h3>OS</h3>
-          <div class="row d-flex  justify-content-start align-items-center">
-            <div class="col-3 ">
+          <div class="row d-flex justify-content-start align-items-center">
+            <div class="col-3">
               <div class="d-flex justify-content-center">
                 <img
                   src="../../assets/1200px-CentOS_color_logo.svg.png"
@@ -633,11 +703,10 @@
           </div>
         </div>
 
-
-        <div class="col-lg-3 p-3 shadow-sm border rounded bg-white m-1">
+        <div class="col-lg-3 p-3 shadow-sm rounded bg-white m-1">
           <h3>Cloud</h3>
-          <div class="row d-flex  justify-content-start align-items-center">
-            <div class="col-3 ">
+          <div class="row d-flex justify-content-start align-items-center">
+            <div class="col-3">
               <div class="d-flex justify-content-center">
                 <img
                   src="../../assets/azure.png"
@@ -652,10 +721,10 @@
           </div>
         </div>
 
-        <div class="col-lg-3 p-3 shadow-sm border rounded bg-white m-1">
+        <div class="col-lg-3 p-3 shadow-sm rounded bg-white m-1">
           <h3>SCM</h3>
-          <div class="row d-flex  justify-content-start align-items-center">
-            <div class="col-3 ">
+          <div class="row d-flex justify-content-start align-items-center">
+            <div class="col-3">
               <div class="d-flex justify-content-center">
                 <img
                   src="../../assets/Git-Icon-1788C.png"
@@ -669,8 +738,6 @@
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
   </div>
@@ -683,20 +750,18 @@
       <div class="row">
         <div class="col-lg-6 mb-2">
           <div class="card">
-            <iframe
-              class="card-img-top"
-              src="https://www.youtube.com/embed/2cCgaq2aWAQ"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            >
-            </iframe>
+            <img
+              src="../../assets/la-casa.jpg"
+              class="img-fluid card-img-top img"
+              alt="..."
+            />
             <div class="card-body">
               <p class="card-title"><strong>Music</strong></p>
               <p class="card-text">
-                I enjoy playing fingerstyle music on the guitar and am currently
-                learning how to play the piano.
+                Check out my cover on youtube :
+                <a href="https://www.youtube.com/embed/2cCgaq2aWAQ"
+                  >click here</a
+                >
               </p>
             </div>
           </div>
@@ -706,7 +771,7 @@
           <div class="card">
             <img
               src="../../assets/96547456_3282598005086732_4121134215590838272_n.jpg"
-              class="card-img-top"
+              class="img-fluid card-img-top img"
               alt="..."
             />
             <div class="card-body">
@@ -759,20 +824,39 @@
   <div class="row">
     <div class="col-lg-6 mb-3">
       <h2>Contact me</h2>
-      <div class="mb-3">
-        <input type="text" class="form-control w-50" placeholder="your email" />
-      </div>
-      <div class="mb-3">
-        <input type="text" class="form-control w-50" placeholder="subject" />
-      </div>
-      <div class="mb-3">
-        <textarea
-          class="form-control"
-          placeholder="write your message.."
-          rows="5"
-        ></textarea>
-      </div>
-      <button class="btn btn-primary w-25">Send</button>
+      <form [formGroup]="formGroup">
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control w-50"
+            placeholder="your email"
+            formControlName="from_name"
+          />
+        </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            placeholder="write your message.."
+            formControlName="message"
+            rows="5"
+          ></textarea>
+        </div>
+        <button (click)="sendEmail()" class="btn btn-primary w-25">Send</button>
+        <small class="mx-3 text-success" *ngIf="isSent"
+          >Sent
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-check"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+            /></svg
+        ></small>
+      </form>
     </div>
     <div class="col-lg-6">
       <div class="mb-3">
