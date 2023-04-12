@@ -24,8 +24,8 @@ export class ProfileComponent implements OnInit {
 
   initForm() {
     this.formGroup = this.formBuilder.group({
-      to_name: 'Mohamed',
-      from_name: ['', Validators.required],
+      to_name: '[Portfolio]: new message',
+      from_name: ['', [Validators.required,Validators.email]],
       message: ['', Validators.required],
       reply_to: 'mohamed.ben.chamakh98@gmail.com',
     });
