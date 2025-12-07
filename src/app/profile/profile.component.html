@@ -26,7 +26,7 @@
           Download my resume
         </button>
       </a>
-      <a href="#contactMe" class="text-light text-decoration-none">
+      <a href="#contact" class="text-light text-decoration-none">
         <button class="btn btn-primary shadow-sm w-50">Contact me</button></a>
       <div class="mt-3">
         <a href="https://www.linkedin.com/in/mohamedbenchamakh/">
@@ -48,27 +48,27 @@
 
 <div class="container mt-3 section-2 border-bottom border-2 mb-4" id="about">
   <div class="row mb-3">
-    <div class="col-lg-6">
-      <h2>Who am i ?</h2>
-      <p>
-        Hi, i'm Mohamed Ben Chamakh, and i'm a software engineer. I have a
-        passion for creating innovative and efficient software solutions that
-        solve real-world problems.
-      </p>
-      <p>
-        Throughout my career, I have worked on a variety of projects, ranging
-        from small-scale applications to large enterprise systems. I am
-        committed to staying up-to-date with the latest technologies and trends
-        in the industry, and I am always eager to learn new skills and take on
-        new challenges.
-      </p>
-      <p>
-        As a software engineer, I believe that the key to success is
-        collaboration, communication, and a focus on delivering high-quality
-        software that meets the needs of end-users. I am excited to continue my
-        career in this dynamic and constantly evolving field, and I look forward
-        to contributing my skills and expertise to future projects.
-      </p>
+    <h2>Who am i ?</h2>
+    <div class="col-lg-6 box d-flex ">
+      <div class="row mb-3">
+        <div class=" col-lg-3 ">
+        <img src="../../assets/sketch.png" class="sketch" alt="..." />
+      </div>
+        <div class="col">
+          <p>
+            Hi, i'm Mohamed Ben Chamakh, and i'm a software engineer. I have a
+            passion for creating innovative and efficient software solutions that
+            solve real-world problems.
+          </p>
+          <p>
+            Throughout my career, I have worked on a variety of projects, ranging
+            from small-scale applications to large enterprise systems. I am
+            committed to staying up-to-date with the latest technologies and trends
+            in the industry, and I am always eager to learn new skills and take on
+            new challenges.
+          </p>
+        </div>
+      </div>
     </div>
     <div class="col-lg-6">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -118,12 +118,10 @@
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hilien="true"></span>
-          <span class="visually-hilien">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hilien="true"></span>
-          <span class="visually-hilien">Next</span>
         </button>
       </div>
     </div>
@@ -135,7 +133,7 @@
     <div class="col-lg-12">
       <h2>Road map</h2>
       <div class="row">
-        <div class="col-lg-9 mb-3 bg-white rounded shadow-sm mx-auto">
+        <div class="col-lg-10 mb-3 bg-white rounded shadow-sm mx-auto">
           <div class="row p-2">
             <div class="col-lg-4 d-flex justify-content-center align-items-center">
               <img src="../../assets/neurostack.jpg" class="w-75 mx-4 img-fluid" />
@@ -161,20 +159,23 @@
                   Migrated the Hybris back-office for the Bricorama, Bricocash, and Bricomarché brands to a Spring
                   Boot solution.</li>
 
-                <li>- Developed a Search API to retrieve offers and facets from Algolia using RSQL.</li>
+                <li>• Developed a Search API to retrieve offers and facets from Algolia using RSQL.</li>
 
-                <li>- Designed a city search API (by name or postal code) integrating the DQE service, featuring secure
+                <li>• Designed a city search API (by name or postal code) integrating the DQE service, featuring
+                  secure
                   and distinct authentication for each brand (via specific Client IDs and Secrets) managed through
                   Spring configuration beans.</li>
 
-                <li>- Dockerized various Hybris and Spring Boot services to ensure portability and simplified deployment.
+                <li>• Dockerized various Hybris and Spring Boot services to ensure portability and simplified
+                  deployment.
                 </li>
 
-                <li>- Deployed microservices on Kubernetes using ArgoCD.</li>
+                <li>• Deployed microservices on Kubernetes using ArgoCD.</li>
 
-                <li>- Ensured code quality through comprehensive unit and integration testing.</li>
+                <li>• Ensured code quality through comprehensive unit and integration testing.</li>
 
-                <li>- Implemented a multi-step job to populate Couchbase with store data aggregated from various sources
+                <li>• Implemented a multi-step job to populate Couchbase with store data aggregated from various
+                  sources
                   (Sigma, Hybris BO, Goodays, Nanotera, etc.).
                 </li>
               </ul>
@@ -194,7 +195,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-9 mb-3 bg-white rounded shadow-sm mx-auto">
+        <div class="col-lg-10 mb-3 bg-white rounded shadow-sm mx-auto">
           <div class="row p-2">
             <div class="col-lg-4 d-flex justify-content-center align-items-center">
               <img src="../../assets/1626268087061.png" class="w-75 mx-4 img-fluid" />
@@ -212,11 +213,38 @@
               <p class="text-muted m-0 mb-3">
                 <small>September 2022 - October 2023</small>
               </p>
-              <p>
-                Development of a mobile HRIS (Human Resources Information
-                System) application called WeBiat for the Arab International
-                Bank of Tunisia (BIAT).
-              </p>
+              <ul class="list-inline small">
+                <li>
+                  Development of a mobile HRIS (Human Resources Information
+                  System) application called WeBiat for the Arab International
+                  Bank of Tunisia (BIAT).
+                </li>
+                <li>
+                  • Design and implementation of ingestion jobs to reliably integrate employee data from multiple CSV
+                  files into the database.
+                </li>
+                <li>
+                  • Advanced configuration of Azure AD and Keycloak to implement a robust authentication and
+                  access-management strategy for the application.
+                </li>
+                <li>
+                  • Development of a custom Keycloak event listener, ensuring transparent and secure synchronization
+                  of
+                  Azure AD users with the application database.
+                </li>
+                <li>
+                  • Implementation of a microservice dedicated to the complete management of Blob Storage.
+                </li>
+                <li>
+                  • Creation of a container in Azure Storage and configuration of a SAS key for secure read access to
+                  files.
+                </li>
+                <li>
+                  • Participation in the product’s production deployment process and supervision of pods in a
+                  Kubernetes
+                  environment, with remote management and intervention via Azure Bastion.
+                </li>
+              </ul>
               <div class="d-flex flex-wrap justify-content-evenly align-items-center">
                 <img src="../../assets/Keycloak_Logo.png" class="icon" alt="keycloak" />
                 <img src="../../assets/spring-3.svg" class="icon" alt="Spring boot" />
@@ -235,7 +263,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-9 mb-3 bg-white rounded shadow-sm mx-auto">
+        <div class="col-lg-10 mb-3 bg-white rounded shadow-sm mx-auto">
           <div class="row p-2">
             <div class="col-lg-4 d-flex justify-content-center align-items-center my-5">
               <img src="../../assets/logo-aymax-avec-slogan-pour-fond-blanc.svg" class="w-75 img-fluid my-5" />
@@ -253,7 +281,7 @@
               <p class="text-muted m-0 mb-3">
                 <small>February 2022 - August 2022</small>
               </p>
-              <p>
+              <p class="small">
                 Design and development of a training module in the HRIS (Human
                 Resources Information System) OUICKLY, which has been developed
                 by the Aymax team since 2019.
@@ -274,7 +302,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-9 mb-3 bg-white rounded shadow-sm mx-auto">
+        <div class="col-lg-10 mb-3 bg-white rounded shadow-sm mx-auto">
           <div class="row p-2">
             <div class="col-lg-4 d-flex justify-content-center align-items-center">
               <img src="../../assets/1552617636603.jpg" class="w-75 mx-4 img-fluid" />
@@ -292,7 +320,7 @@
               <p class="text-muted m-0 mb-3">
                 <small>July 2021 - August 2021</small>
               </p>
-              <p>
+              <p class="small">
                 Designing a cloud architecture on Amazon Web Services and
                 deploying a web application called C2 based on microservices.
               </p>
@@ -593,7 +621,7 @@
             <div class="card-body">
               <p class="card-title"><strong>Music</strong></p>
               <p class="card-text">
-                <small> Check out my cover on youtube :
+                <small> Check out my cover on youtube
                   <a href="https://www.youtube.com/embed/2cCgaq2aWAQ">click here</a></small>
               </p>
             </div>
@@ -646,10 +674,10 @@
   </div>
 </div>
 
-<div class="container mt-3 section-2" id="contactMe">
+<div class="container mt-3 section-2" id="contact">
   <div class="row">
     <div class="col-lg-6 mb-3">
-      <h2>Contact me</h2>
+      <h2>Contact</h2>
       <form [formGroup]="formGroup">
         <div class="mb-3">
           <input type="email" class="form-control w-50" placeholder="your email" formControlName="from_name" />
